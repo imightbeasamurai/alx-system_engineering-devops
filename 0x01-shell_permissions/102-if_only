@@ -1,0 +1,5 @@
+#!/bin/bash
+current_owner=$(ls -l hello | awk '{print $3}')
+if [[ $current_owner == "guillaume" ]]; then
+  chown betty hello
+fi

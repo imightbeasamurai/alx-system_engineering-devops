@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R a+xd .
+chmod -R a755d .
